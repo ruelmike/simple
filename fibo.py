@@ -6,9 +6,14 @@ def fib(n):
     else:
         return fib(n-1) + fib(n-2)
     
+'''
 print(fib(0))
 print(fib(1))
 print(fib(2))
 print(fib(3))
 print(fib(4))
 print(fib(5))
+'''
+
+for n in range(10):
+    print("n=", n,  "fib(n)= ", fib(n))
