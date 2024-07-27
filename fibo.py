@@ -16,4 +16,8 @@ print(fib(5))
 '''
 
 for n in range(10):
-    print("n=", n,  "fib(n)= ", fib(n))
+    my_var = "n=", n,  "fib(n)= ", fib(n)
+    print(fib(n))
+    your_var = n**2
+    # print(my_var)
+    # print(your_var)
